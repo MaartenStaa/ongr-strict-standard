@@ -1,0 +1,183 @@
+<?php
+
+/*
+ * This file is part of the ONGR package.
+ *
+ * (c) NFQ Technologies UAB <info@nfq.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Test;
+
+/**
+ *
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest1
+{
+}
+
+/**  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;. */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest2
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest3
+{
+}
+
+/**  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest4
+{
+}
+
+/**
+ *
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest5
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ * Long description
+ * Long description
+ * Long description.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest6
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ *
+ * Long description
+ * Long description
+ * Long description.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest7
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ * Long description
+ * Long description
+ * Long description.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest8
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ * Long description
+   Long description
+ * Long description.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest9
+{
+}
+
+/**
+  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+
+ Long description
+ Long description
+ Long description.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest10
+{
+}
+
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest11
+{
+}
+
+/**
+ * lowercase.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest12
+{
+}
+
+/**
+ * Missing dot
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest13
+{
+}
+
+/**
+ * lowercase missing dot
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest14
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ * lowercase.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest15
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ * Missing dot
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest16
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ * lowercase missing dot
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest17
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ * multiline lowercase
+ * missing dot
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest18
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ * multiline lowercase
+ * with dot.
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest19
+{
+}
+
+/**
+ *  use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;.
+ *
+ * Multiline
+ * missing dot
+ */
+class Class use MaartenStaa\OngrStrictStandards\Sniffs\Helper\Comment;SniffTest20
+{
+}

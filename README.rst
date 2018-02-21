@@ -28,21 +28,21 @@ Ever wanted to standardize your team's code style? This is a **PSR-2 compliant c
 
     <?php
     namespace Project\MyClass ;
-    
+
     use Foo;
-    
+
     /**
      *  this class has method
-    
+
      */
     class MyClass
     {
-    
+
         public function foo($param)
         {
             $a = $param *  2;
             return $a+1;
-    
+
         }
     }
 
@@ -75,7 +75,7 @@ After Ongr Strict Standard validation:
     ----------------------------------------------------------------------
     PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
     ----------------------------------------------------------------------
-    
+
     Time: 68ms; Memory: 5.75Mb
 
 Features
